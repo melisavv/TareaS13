@@ -1,0 +1,35 @@
+body{
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-image: url(img/fondo.jpg);
+}
+#listado{
+    background-color: transparent;
+    margin: 0 auto;
+     padding: 15px;
+     width: 500px;
+ }
+ #listado ul li{
+     background-color: transparent;
+     list-style-position: inside;
+ }
+ .SinElem{
+     list-style-type: none;
+ }
+ .ListadoCircular{
+     list-style-type: circle;
+ }
+ .ListadoCuadrado{
+     list-style-type: square;
+ }
+ #listado ol li{
+     background-color: transparent;
+     list-style-position: inside;
+ }
+ .ListadoRomano{
+     list-style-type: lower-roman;
+ }
+ .ListadoGriego{
+     list-style-type: lower-greek;
+ }
